@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<title>¯\_(ツ)_/¯</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="dist/css/main.css" />
+
+	</head>
+
+	<body>
+		<div class="container">
+			
+			<form name="search_tweets" method="get">
+				<div class="required">
+					<label for="term">term</label>
+					<input id="term" name="term" value="coffee" />
+				</div>
+				<button type="submit" class="get_btn">Search All Nearby</button>
+				
+			</form>
+			<p class="message"></p>
+		</div>
+		<section class="results">
+			<ul class="result_list">
+				<!-- <li class="res_li">
+					<div class="res_div">
+						<div class="res_div-info">
+							<h2 class="res_div-head">test title</h2>
+							<p class="res_div-contact">925-436-7785</p>
+							<p class="res_div-address">1516 duncombe st, key west florida, 33040</p>
+							<article class="res_div-stats">
+								<span class="res_stats-price">$$$$</span>
+								<span class="res_stats-rate">★★★★★</span>
+								<span class="res_stats-dist">&lt; 1 mile</span>
+							</article>
+						</div>
+						<img src="/dist/img/logo.png" alt="" class="res_div-img">
+					</div>
+				</li> -->
+			</ul>
+		</section>
+
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		<script src="/src/js/twitApi.js"></script>
+		<!-- <script src="dist/js/base-validator.js"></script> -->
+		<script src="dist/js/main.js"></script>
+	</body>
+</html>
